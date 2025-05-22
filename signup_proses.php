@@ -20,7 +20,6 @@ if (mysqli_query($koneksi, $query)) {
 
     header("Location: login.php?pesan=sukses");
 } else {
-
     header("Location: signup.php?pesan=gagal");
 }
 ?>
